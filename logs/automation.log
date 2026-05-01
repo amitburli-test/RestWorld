@@ -1,0 +1,113 @@
+2026-05-01 23:50:12 [main] INFO  listeners.TestListeners - Test suit started..!Fri May 01 23:50:12 IST 2026
+2026-05-01 23:50:12 [main] INFO  listeners.TestListeners - test started..! verifyFetchMeApi
+2026-05-01 23:50:13 [main] INFO  filters.LoggingFilters - BaseUri=https://api.eventhub.rahulshettyacademy.com
+2026-05-01 23:50:13 [main] INFO  filters.LoggingFilters - Request headerAccept=*/*
+Content-Type=application/json
+2026-05-01 23:50:13 [main] INFO  filters.LoggingFilters - Request body{"email":"cameron.douglas@yahoo.com","password":"af7qctk771qmdzu"}
+2026-05-01 23:50:14 [main] INFO  filters.LoggingFilters - Response body201
+2026-05-01 23:50:14 [main] INFO  filters.LoggingFilters - Response body{}
+2026-05-01 23:50:14 [main] INFO  filters.LoggingFilters - Response bodyDate=Fri, 01 May 2026 18:20:15 GMT
+Server=Apache/2.4.52 (Ubuntu)
+X-Powered-By=Express
+Access-Control-Allow-Origin=https://eventhub.rahulshettyacademy.com
+Vary=Origin
+Access-Control-Allow-Credentials=true
+Content-Type=application/json; charset=utf-8
+Content-Length=277
+ETag=W/"115-ZzpzVjw9RiDgO7yj+ptNqyG1emQ"
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+2026-05-01 23:50:14 [main] INFO  filters.LoggingFilters - Response body{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjczMDAsImVtYWlsIjoiY2FtZXJvbi5kb3VnbGFzQHlhaG9vLmNvbSIsImlhdCI6MTc3NzY1OTYxNSwiZXhwIjoxNzc4MjY0NDE1fQ.zPMHrIKnJuje1qSFDxQrfMip89nHDUlKUTG_zxH21QM",
+    "user": {
+        "id": 7300,
+        "email": "cameron.douglas@yahoo.com"
+    }
+}
+2026-05-01 23:50:15 [main] INFO  filters.LoggingFilters - BaseUri=https://api.eventhub.rahulshettyacademy.com
+2026-05-01 23:50:15 [main] INFO  filters.LoggingFilters - Request headerAccept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjczMDAsImVtYWlsIjoiY2FtZXJvbi5kb3VnbGFzQHlhaG9vLmNvbSIsImlhdCI6MTc3NzY1OTYxNSwiZXhwIjoxNzc4MjY0NDE1fQ.zPMHrIKnJuje1qSFDxQrfMip89nHDUlKUTG_zxH21QM
+Content-Type=application/json
+2026-05-01 23:50:15 [main] INFO  filters.LoggingFilters - Request body{"email":"cameron.douglas@yahoo.com","password":"af7qctk771qmdzu"}
+2026-05-01 23:50:15 [main] INFO  filters.LoggingFilters - Response body200
+2026-05-01 23:50:15 [main] INFO  filters.LoggingFilters - Response body{}
+2026-05-01 23:50:15 [main] INFO  filters.LoggingFilters - Response bodyDate=Fri, 01 May 2026 18:20:15 GMT
+Server=Apache/2.4.52 (Ubuntu)
+X-Powered-By=Express
+Access-Control-Allow-Origin=https://eventhub.rahulshettyacademy.com
+Vary=Origin
+Access-Control-Allow-Credentials=true
+Content-Type=application/json; charset=utf-8
+Content-Length=109
+ETag=W/"6d-irmAtEi4TLqrmZgcGJBS5kKyRwg"
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+2026-05-01 23:50:15 [main] INFO  filters.LoggingFilters - Response body{
+    "success": true,
+    "user": {
+        "userId": 7300,
+        "email": "cameron.douglas@yahoo.com",
+        "iat": 1777659615,
+        "exp": 1778264415
+    }
+}
+2026-05-01 23:50:15 [main] DEBUG listeners.TestListeners - test passed..!verifyFetchMeApi
+2026-05-01 23:50:15 [main] DEBUG listeners.TestListeners - test description..!
+2026-05-01 23:50:15 [main] INFO  listeners.TestListeners - test started..! verifyLoginApi
+2026-05-01 23:50:15 [main] INFO  filters.LoggingFilters - BaseUri=https://api.eventhub.rahulshettyacademy.com
+2026-05-01 23:50:15 [main] INFO  filters.LoggingFilters - Request headerAccept=*/*
+Content-Type=application/json
+2026-05-01 23:50:15 [main] INFO  filters.LoggingFilters - Request body{"email":"student@example.com","password":"secret123"}
+2026-05-01 23:50:17 [main] INFO  filters.LoggingFilters - Response body200
+2026-05-01 23:50:17 [main] INFO  filters.LoggingFilters - Response body{}
+2026-05-01 23:50:17 [main] INFO  filters.LoggingFilters - Response bodyDate=Fri, 01 May 2026 18:20:16 GMT
+Server=Apache/2.4.52 (Ubuntu)
+X-Powered-By=Express
+Access-Control-Allow-Origin=https://eventhub.rahulshettyacademy.com
+Vary=Origin
+Access-Control-Allow-Credentials=true
+Content-Type=application/json; charset=utf-8
+Content-Length=256
+ETag=W/"100-H2hYmzxUiCb84oj4dTPQpZIS6uU"
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+2026-05-01 23:50:17 [main] INFO  filters.LoggingFilters - Response body{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImVtYWlsIjoic3R1ZGVudEBleGFtcGxlLmNvbSIsImlhdCI6MTc3NzY1OTYxNiwiZXhwIjoxNzc4MjY0NDE2fQ.q84YNWfUicpbckw9rPTsUjnY9a-x4JsmZtFaxWLXhBk",
+    "user": {
+        "id": 4,
+        "email": "student@example.com"
+    }
+}
+2026-05-01 23:50:17 [main] DEBUG listeners.TestListeners - test passed..!verifyLoginApi
+2026-05-01 23:50:17 [main] DEBUG listeners.TestListeners - test description..!verify login api test ..!
+2026-05-01 23:50:17 [main] INFO  listeners.TestListeners - test started..! verifyRegisterApi
+2026-05-01 23:50:18 [main] INFO  filters.LoggingFilters - BaseUri=https://api.eventhub.rahulshettyacademy.com
+2026-05-01 23:50:18 [main] INFO  filters.LoggingFilters - Request headerAccept=*/*
+Content-Type=application/json
+2026-05-01 23:50:18 [main] INFO  filters.LoggingFilters - Request body{"email":"marta.fay@yahoo.com","password":"tujokp35xni2xiv"}
+2026-05-01 23:50:18 [main] INFO  filters.LoggingFilters - Response body201
+2026-05-01 23:50:18 [main] INFO  filters.LoggingFilters - Response body{}
+2026-05-01 23:50:18 [main] INFO  filters.LoggingFilters - Response bodyDate=Fri, 01 May 2026 18:20:18 GMT
+Server=Apache/2.4.52 (Ubuntu)
+X-Powered-By=Express
+Access-Control-Allow-Origin=https://eventhub.rahulshettyacademy.com
+Vary=Origin
+Access-Control-Allow-Credentials=true
+Content-Type=application/json; charset=utf-8
+Content-Length=263
+ETag=W/"107-pQyNf9IFhvW7R0hza5LTz/NPeM0"
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+2026-05-01 23:50:18 [main] INFO  filters.LoggingFilters - Response body{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjczMDEsImVtYWlsIjoibWFydGEuZmF5QHlhaG9vLmNvbSIsImlhdCI6MTc3NzY1OTYxOCwiZXhwIjoxNzc4MjY0NDE4fQ.ZGrhhq7ngI3zptA89KoiUeRtZcBIGayjPvWcFn63HBg",
+    "user": {
+        "id": 7301,
+        "email": "marta.fay@yahoo.com"
+    }
+}
+2026-05-01 23:50:18 [main] DEBUG listeners.TestListeners - test passed..!verifyRegisterApi
+2026-05-01 23:50:18 [main] DEBUG listeners.TestListeners - test description..!
+2026-05-01 23:50:18 [main] INFO  listeners.TestListeners - Test suit complited..!Fri May 01 23:50:12 IST 2026
