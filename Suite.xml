@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listeners.TestListeners"/>
+    </listeners>
+    <test name="Api testing">
+        <classes>
+            <class name="testcases.FetchMeApi"/>
+            <class name="testcases.LoginApi"/>
+            <class name="testcases.RegisterApi"/>
+        </classes>
+    </test>
+</suite>
