@@ -19,17 +19,31 @@ Suites are driven by TestNG XML files — separate suites for smoke and regressi
 If I were to improve it: externalize the base URL to config.properties, add JSON Schema validation, data-driven testing with @DataProvider, and plug it into a CI/CD pipeline."
 
 #FrameWork parameters
+
 Framework Type    : REST API Test Automation
+
 Pattern           : Service Object Model (SOM)
+
 Language          : Java 17
+
 Test Framework    : TestNG 7.x
+
 HTTP Library      : REST Assured 5.x
+
 Serialization     : Jackson (ObjectMapper)
+
 Test Data         : JavaFaker
+
 Logging           : Log4j2 + Custom REST Assured Filter
+
 Reporting         : ExtentReports 5.x (via ITestListener)
+
 Build Tool        : Maven + Surefire Plugin
+
 Suite Management  : TestNG XML (Suite.xml / Suite2.xml)
+
 Base URL          : https://api.eventhub.rahulshettyacademy.com
+
 Auth Type         : Bearer Token
+
 
